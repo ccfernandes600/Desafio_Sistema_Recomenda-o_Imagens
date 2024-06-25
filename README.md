@@ -5,7 +5,7 @@ Este projeto visa desenvolver um sistema de recomendação de categorias de prod
 # Tecnologias Utilizadas
 
 
-1.** Linguagem de Programação**
+1.**Linguagem de Programação**
   *  **Python**: Linguagem principal utilizada para desenvolvimento do projeto.
 
 2. **Bibliotecas e Frameworks de Visão Computacional e Aprendizado de Máquina**
@@ -19,7 +19,7 @@ Este projeto visa desenvolver um sistema de recomendação de categorias de prod
   * **Pandas**: Biblioteca para manipulação e análise de dados estruturados.
   * **Matplotlib**: Biblioteca para visualização de dados.
 
-4.** Ferramentas de Pré-processamento e Aumentação de Dados**
+4.**Ferramentas de Pré-processamento e Aumentação de Dados**
   * **Google Colab**: Ambiente de desenvolvimento colaborativo para a execução de notebooks Jupyter. O Colab permite o upload de arquivos e a execução de código interativo.
 
 5. **Desenvolvimento da Interface de Usuário**
@@ -28,7 +28,7 @@ Este projeto visa desenvolver um sistema de recomendação de categorias de prod
 6. **Manipulação de Imagens**
   * **Pillow**: Biblioteca para processamento de imagens, utilizada para abrir e manipular arquivos de imagem.
 
-7. Armazenamento de Dados
+7. **Armazenamento de Dados**
   * **Google Drive**
 
 # **Etapas do Projeto**
@@ -53,16 +53,16 @@ Este projeto visa desenvolver um sistema de recomendação de categorias de prod
   * **Treinamento do Modelo**: Divisão do conjunto de dados em treinamento e teste, configuração dos hiperparâmetros e treinamento do modelo.
   * **Avaliação do Modelo**: Métricas de desempenho como acurácia, precisão, recall e F1-score.
 
-5. Sistema de Recomendação
+5. **Sistema de Recomendação**
 
   * **Estratégia de Recomendação**: Desenvolver um sistema que recomenda categorias de produtos baseados na similaridade das imagens.
   * **Implementação**: Uso de técnicas como K-Nearest Neighbors (KNN) para encontrar imagens similares no espaço das características aprendidas pelo modelo de classificação.
 
-6. Interface de Usuário
+6. **Interface de Usuário**
 
 O ideal seria a criação de uma interface simples (pode ser uma aplicação web usando Flask ou Django) onde o usuário pode fazer upload de uma imagem e receber recomendações de categorias. Porém camos usar a biblioteca de upload do Google Colab
 
-7. Validação e Testes
+7. **Validação e Testes**
 
   * Testar a precisão do sistema de recomendação com imagens novas.
   * Coletar feedback e ajustar o modelo conforme necessário.    
